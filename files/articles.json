@@ -1,0 +1,463 @@
+{
+  "articles": [
+     {
+      "id": "2025_SASBE",
+      "category": "publications",
+      "year": 2025,
+      "tags": ["full"],
+      "image": "imgs/SASBE_Comparison_Construction.png",
+      "title": "Comparing 3D Gaussian Splatting and Laser Scanning for Assessing the Condition of Structural Concrete Elements for Circular Reuse",
+      "authors": [
+        "Philipp Hagedorn",
+        "Patrick Herbers",
+        "Kristoffer Waldow",
+        "Arnulph Fuhrmann",
+        "Niels Bartels"
+      ],
+      "published": "SASBE 2025: Smart and Sustainable Built Environment",
+      "abstract": "The reuse of structural concrete elements is gaining importance in the context of sustainable construction and the circular economy. This paper conducts an analysis of the usability of 3D Gaussian Splatting (3DGS) and handheld Mobile Laser Scanning (MLS) for the initial characterization of reinforced concrete components, facilitating their reuse. While handheld MLS enables the acquisition of accurate geometric data through LiDAR, 3DGS enables rapid and visually rich reconstructions from simple video input. The aim is to evaluate how these complementary methods can provide a low-cost and efficient means of roughly estimating the exterior condition and dismantling potential. The methods are applied to real building components extracted from a deconstruction site of an office building. The evaluation discusses the strengths and limitations of both methods in terms of surface detail and geometric accuracy. The study highlights the potential of digital surveying to support early decision-making in reuse strategies with minimal equipment and effort.",
+      "links": [
+        {
+          "name":"ResearchGate",
+          "link": "https://www.researchgate.net/publication/396854539_Comparing_3D_Gaussian_Splatting_and_Laser_Scanning_for_Assessing_the_Condition_of_Structural_Concrete_Elements_for_Circular_Reuse"
+        }
+      ],
+      "award": false,
+      "bibtex": false
+    },
+    {
+      "id": "2025_PTE",
+      "category": "publications",
+      "year": 2025,
+      "tags": ["journal"],
+      "image": "imgs/PTE.png",
+      "title": "🏆 Investigating the Impact of Video Pass-Through Embodiment on Presence and Performance in Virtual Reality",
+      "authors": [
+        "Kristoffer Waldow",
+        "Constantin Kleinbeck",
+        "Arnulph Fuhrmann",
+        "Daniel Roth"
+      ],
+      "published": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+      "abstract": "Creating a compelling sense of presence and embodiment can enhance the user experience in virtual reality (VR). One method to accomplish this is through self-representation with embodied personalized avatars or video self-avatars. However, these approaches require external hardware and primarily evaluate hand representations in VR across various tasks. We therefore present in this paper an alternative approach: video Pass-Through Embodiment (PTE), which utilizes the per-eye real-time depth map from Head-Mounted Displays (HMDs) traditionally used for Augmented Reality features. This method allows the user’s real body to be cut out of the pass-through video stream and be represented in the VR environment without the need for additional hardware. To evaluate our approach, we conducted a between-subjects study involving 40 participants who completed a seated object sorting task using either PTE or a customized avatar. The results show that PTE, despite its limited depth resolution that leads to some visual artifacts, significantly enhances the user’s sense of presence and embodiment. In addition, PTE does not negatively affect task performance, cognitive load, or cause VR sickness. These findings imply that video pass-through embodiment offers a practical and efficient alternative to traditional avatar-based methods in VR.",
+      "links": [
+        {
+          "name":"Video",
+          "link": "https://www.youtube.com/watch?v=XyfXA59z33M"
+        },
+        {
+          "name":"IEEE TVCG",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10919005"
+        }
+      ],
+      "award": true,
+      "bibtex": true
+    },
+    {
+      "id": "2025_DimSplat",
+      "category": "publications",
+      "year": 2025,
+      "tags": ["poster"],
+      "image": "imgs/DimSplat.png",
+      "title": "DimSplat: A Real-Time Diminished Reality System for Revisiting Environments Using Gaussian Splats in Mobile WebXR",
+      "authors": [
+        "Kristoffer Waldow",
+        "Jonas Scholz",
+        "Arnulph Fuhrmann"
+      ],
+      "published": "Proceedings of 32th IEEE Virtual Reality Conference (VR ’25)",
+      "abstract": "Diminished Reality (DR) allows for the selective removal or transformation of real-world objects from a user’s feld of view. In certain cases, it becomes essential to revisit environments and observe them in their original state. While Smartphone and Web-based approaches provide intuitive and convenient AR platforms, it also faces challenges like limited resources. This work introduces a DR system using Gaussian splats for real-time object removal on WebXR-enabled devices. We achieve up to 60 FPS while maintaining high visual fdelity, validated with different image quality metrics, offering a scalable solution for revisiting and manipulating temporally altered environments.",
+      "links": [
+        {
+          "name":"Video",
+          "link": "https://www.youtube.com/watch?v=FgRtNsRKDBI"
+        },
+        {
+          "name":"ResearchGate",
+          "link": "https://www.researchgate.net/publication/389168516_DimSplat_A_Real-Time_Diminished_Reality_System_for_Revisiting_Environments_Using_Gaussian_Splats_in_Mobile_WebXR"
+        }
+      ],
+        "bibtex": true
+    },
+    {
+      "id": "2024_3DGSConstruction",
+      "category": "publications",
+      "year": 2024,
+      "tags": ["full"],
+      "image": "imgs/CONVR2024.png",
+      "title": "3D Gaussian Splatting for Construction Sites",
+      "authors": [
+        "Sina Rüter",
+        "Kristoffer Waldow",
+        "Niels Bartels",
+        "Arnulph Fuhrmann"
+      ],
+      "published": "24th International Conference on Construction Applications of Virtual Reality (CONVR 2024), Western Sydney University, NSW, Australia",
+      "abstract": "This paper explores the potential of 3D Gaussian Splatting (3DGS) for construction site visualization. While Virtual Reality (VR) is gaining traction in the Architecture, Engineering, and Construction (AEC) industry, there is a gap between its potential and its application on real construction sites. This paper proposes 3DGS as a method to create fast, high quality 3D models from simple video capture. This eliminates the need for time-consuming traditional methods such as laser scanning.  The resulting models can then be viewed in VR, enabling immersive walkthroughs and inspections. The results of the structured interviews indicate that Kerbl et al.'s 3DGS provides the highest quality and detail, but requires powerful hardware, while online services like Polycam are a more cost-effective alternative for short-term modeling. Photogrammetry, while less expensive, produces models with less detail. In terms of usability, respondents generally preferred models with more detail and recognition of specific components. 3DGS performed well in VR, providing an immersive experience similar to an actual site visit. However, some concerns were raised about motion sickness and discomfort when wearing such VR head-mounted system.",
+      "links": [
+        {
+          "name":"Live Preview",
+          "link":"/gsplats/index.html"
+        },
+        {
+          "name":"ResearchGate",
+          "link": "https://www.researchgate.net/publication/385552762_3D_Gaussian_Splatting_for_Construction_Sites"
+        }
+      ],
+      "bibtex": true
+    },
+    {
+      "id": "2024_AnitAliasing",
+      "category": "publications",
+      "year": 2024,
+      "tags": ["full"],
+      "image": "imgs/AntiAliasing_GIVRAR.png",
+      "title": "Anti-aliasing Techniques in Virtual Reality: A User Study with Perceptual Pairwise Comparison Ranking Scheme",
+      "authors": [
+        "Kristoffer Waldow",
+        "Jonas Scholz",
+        "Martin Misiak",
+        "Arnulph Fuhrmann",
+        "Daniel Roth",
+        "Marc Erich Latoschik"
+      ],
+      "published": "Virtuelle und Erweiterte Realität – 21. Workshop der GI-Fachgruppe VR/AR, 2024, Hamburg, Germany",
+      "abstract": "Anti-aliasing is essential for Virtual Reality (VR) applications, as the pixels of current VR displays subtend a large field of view. This makes various undersampling artifacts particularly noticeable. Understanding state-of-the-art anti-aliasing techniques and their trade-offs is therefore crucial for optimizing VR experiences and developing high-quality VR applications. This paper investigates multiple anti-aliasing techniques through a user study with pairwise comparisons to determine the best method for image quality in VR, considering both static and moving objects in four different plausible environments. Results indicate that the ranking of methods does not differ significantly between moving and static scenes. While naive Supersampling Anti-Aliasing provides the best image quality from the tested methods and Fast Approximate Anti-Aliasing the worst, Temporal Anti-Aliasing and Multisample Anti-Aliasing achieved similar results in terms of image quality.",
+      "links": [
+        {
+          "name": "GI",
+          "link": "https://dl.gi.de/items/d094d5b9-f6f5-4618-8178-349e257f7d9a"
+        }
+      ],
+       "bibtex": true
+    },
+    {
+      "id": "2024_FaceEnhance",
+      "category": "publications",
+      "year": 2024,
+      "tags": ["poster"],
+      "image": "imgs/EnhanceFace.png",
+      "title": "Facial Feature Enhancement for Immersive Real-Time Avatar-Based Sign Language Communication using Personalized CNNs",
+      "authors": ["Kristoffer Waldow", "Arnulph Fuhrmann", "Daniel Roth"],
+      "published": "Proceedings of 31th IEEE Virtual Reality Conference (VR ’24)",
+      "abstract": "Facial recognition is crucial in sign language communication. Especially for virtual reality and avatar-based communication, increased facial features have the potential to integrate the deaf and hard-of-hearing community to improve speech comprehension and empathy. But, current methods lack precision in capturing nuanced expressions. To address this, we present a real-time solution that utilizes personalized Convolutional Neural Networks (CNNs) to capture intricate facial details, such as tongue movement and individual puffed cheeks. Our system's classification models offer easy expansion and integration into existing facial recognition systems via UDP network broadcasting.",
+      "links": [
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10536505"
+        }
+      ],
+       "bibtex": true
+    },
+    {
+      "id": "2024_DepthPerception",
+      "category": "publications",
+      "year": 2024,
+      "tags": ["poster"],
+      "image": "imgs/DepthPerception.png",
+      "title": "🏆 Investigating Incoherent Depth Perception Features in Virtual Reality using Stereoscopic Impostor-Based Rendering",
+      "authors": [
+        "Kristoffer Waldow",
+        "Lukas Decker",
+        "Martin Misiak",
+        "Arnulph Fuhrmann",
+        "Daniel Roth",
+        "Marc Erich Latoschik"
+      ],
+      "published": "Proceedings of 31th IEEE Virtual Reality Conference (VR ’24)",
+      "abstract": "Depth perception is essential for our daily experiences, aiding in orientation and interaction with our surroundings. Virtual Reality allows us to decouple such depth cues mainly represented through binocular disparity and motion parallax. Dealing with fully-mesh-based rendering methods these cues are not problematic as they originate from the object's underlying geometry. However, manipulating motion parallax, as seen in stereoscopic imposter-based rendering, raises multiple perceptual questions. Therefore, we conducted a user experiment to investigate how varying object sizes affect such visual errors and perceived 3-dimensionality, revealing an interestingly significant negative correlation and new assumptions about visual quality.",
+      "links": [
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10536257"
+        }
+      ],
+      "award": true,
+       "bibtex": true
+    },
+    {
+      "id": "2024_DeepNeuralLabeling",
+      "category": "publications",
+      "year": 2024,
+      "tags": ["full"],
+      "image": "imgs/DeepNeuralLabeling.png",
+      "title": "Deep Neural Labeling: Hybrid Hand Pose Estimation Using Unlabeled Motion Capture Data With Color Gloves in Context of German Sign Language",
+      "authors": ["Kristoffer Waldow", "Arnulph Fuhrmann", "Daniel Roth"],
+      "published": "6th IEEE International Conference on Artificial Intelligence & extended and Virtual Reality 2024 (AIxVR ’24)",
+      "abstract": "Hands are fundamental to conveying emotions and ideas, especially in sign language. In the context of virtual reality, motion capture is becoming essential for mapping real human movements to avatars in immersive environments. While current hand motion capture methods feature partly great usability, accuracy, and real-time performance, they have limitations. Industry-standard motion capture methods with sensor gloves lead to acceptable results, but still produce occasional errors due to proximity of the fingers and sensor drifts. This, in turn, requires time-consuming correction and manual labeling of optical markers during post-processing for offline use cases and prohibits the use in real-time scenarios as VR communication. To overcome these limitations, we introduce a novel hybrid hand pose estimation method that leverages both an optical motion capture system and a color-coded fabric glove. This approach merges the strengths of both techniques, enabling the automated labeling of 3D marker positions through a data-driven machine-learning approach. Using a spherical capture rig and a deep learning algorithm, we improve efficiency and accuracy. The labeled markers then drive a robust optimization procedure for solving hand posture, accounting for limitations in finger movements and validation checks. We evaluate our system in the context of German sign language where we achieve an accuracy of 97% correct marker assignments. Our approach aims to enhance the accuracy and immersion of sign language communication in VR, making it more inclusive for both deaf and hearing people.",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://youtu.be/gxvLI674-04"
+        },
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10445598"
+        }
+      ],
+       "bibtex": true
+    },
+
+    {
+      "id": "2022_AVASAG",
+      "category": "publications",
+      "year": 2022,
+      "tags": ["full"],
+      "image": "imgs/TowardsAvasag.png",
+      "title": "Towards Automated Sign Language Production: A Pipeline for Creating Inclusive Virtual Humans",
+      "authors": [
+        "Lucas Bernhard",
+        "Fabrizio Nunnari",
+        "Amelie Unger",
+        "Judith Bauerdiek",
+        "Christian Dold",
+        "Marcel Hauck",
+        "Alexander Stricker",
+        "Tobias Baur",
+        "Alexander Heimerl",
+        "Elisabeth André",
+        "Melissa Reinecker",
+        "Cristina España-Bonet",
+        "Yasser Hamidullah",
+        "Stephan Busemann",
+        "Patrick Gebhard",
+        "Corinna Jäger",
+        "Sonja Wecker",
+        "Yvonne Kossel",
+        "Henrik Müller",
+        "Kristoffer Waldow",
+        "Arnulph Fuhrmann",
+        "Martin Misiak",
+        "Dieter Wallach"
+      ],
+      "published": "Proceedings of the 15th International Conference on PErvasive Technologies Related to Assistive Environments",
+      "abstract": "In everyday life, Deaf People face barriers because information is often only available in spoken or written language. Producing sign language videos showing a human interpreter is often not feasible due to the amount of data required or because the information changes frequently. The ongoing AVASAG project addresses this issue by developing a 3D sign language avatar for the automatic translation of texts into sign language for public services. The avatar is trained using recordings of human interpreters translating text into sign language. For this purpose, we create a corpus with video and motion capture data and an annotation scheme that allows for real-time translation and subsequent correction without requiring to correct the animation frames manually. This paper presents the general translation pipeline focusing on innovative points, such as adjusting an existing annotation system to the specific requirements of sign language and making it usable to annotators from the Deaf communities.",
+      "links": [
+        {
+          "name": "ACM",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3529190.3529202"
+        }
+      ]
+    },
+
+    {
+      "id": "2021_AVASAG",
+      "category": "publications",
+      "year": 2021,
+      "tags": ["full"],
+      "image": "imgs/Avasag.png",
+      "title": "AVASAG: A German Sign Language Translation System for Public Services",
+      "authors": [
+        "Fabrizio Nunnari ",
+        "Judith Bauerdiek ",
+        "Lucas Bernhard ",
+        "Cristina España-Bonet ",
+        "Corinna Jäger ",
+        "Amelie Unger ",
+        "Kristoffer Waldow ",
+        "Sonja Wecker ",
+        "Elisabeth André ",
+        "Stephan Busemann ",
+        "Christian Dold ",
+        "Arnulph Fuhrmann ",
+        "Patrick Gebhard ",
+        "Yasser Hamidullah ",
+        "Marcel Hauck ",
+        "Yvonne Kossel ",
+        "Martin Misiak ",
+        "Dieter Wallach ",
+        "Alexander Stricker"
+      ],
+      "published": "Proceedings of the 1st International Workshop on Automatic Translation for Signed and Spoken Languages (AT4SSL)",
+      "abstract": "This paper presents an overview of AVASAG; an ongoing applied-research project developing a text-to-sign-language translation system for public services. We describe the scientific innovation points (geometry-based SL-description, 3D animation and video corpus, simplified annotation scheme, motion capture strategy) and the overall translation pipeline.",
+      "links": [
+        {
+          "name": "ACL",
+          "link": "https://aclanthology.org/2021.mtsummit-at4ssl.5/"
+        }
+      ]
+    },
+    {
+      "id": "2021_Ventriloquism",
+      "category": "publications",
+      "year": 2021,
+      "tags": ["poster"],
+      "image": "imgs/Ventriloquism.png",
+      "title": "Investigating the Influence of Sound Source Visualization on the Ventriloquism Effect in an Auralized Virtual Reality Environment",
+      "authors": ["Nigel Frangenberg", "Kristoffer Waldow", "Arnulph Fuhrmann"],
+      "published": "Proceedings of 28th IEEE Virtual Reality Conference (VR ’21), Lisbon, Portugal",
+      "abstract": "The ventriloquism effect (VQE) describes the illusion that the puppeteer’s voice seems to come out of the puppet’s mouth. This effect can even be observed in virtual reality (VR) when a spatial discrepancy between the auditory and visual component occurs. However, previous studies have never fully investigated the impact of visual quality on VQE. Therefore, we conducted an exploratory experiment to investigate the influence of the visual appearance of a loudspeaker on the VQE in VR. Our evaluation yields significant differences in the vertical plane which leads to the assumption that the less realistic model had a stronger VQE than the realistic one.",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://www.youtube.com/watch?v=GKt7VizWkjc"
+        },
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/document/9419101"
+        }
+      ]
+    },
+    {
+      "id": "2020_AdressingDeaf",
+      "category": "publications",
+      "year": 2020,
+      "image": "imgs/AdressingDeaf.png",
+      "tags": ["poster"],
+      "title": "Addressing Deaf or Hard-of-Hearing People in Avatar-Based Mixed Reality Collaboration Systems",
+      "authors": ["Kristoffer Waldow", "Arnulph Fuhrmann"],
+      "published": "Proceedings of 27th IEEE Virtual Reality Conference (VR ’20), Atlanta, USA.",
+      "abstract": "Automatic Speech Recognition (ASR) technologies can be used to address people with auditory disabilities by integrating them in an interpersonal communication via textual visualization of speech. Especially in avatar-based Mixed Reality (MR) remote collaboration systems, speech is an important additional modality and allows natural human interaction. Therefore, we propose an easy to integrate ASR and textual visualization extension for an avatar-based MR remote collaboration system that visualizes speech via spatial floating speech bubbles. In a small pilot study, we achieved word accuracy of our extension of 97% by measuring the widely used word error rate.",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://www.youtube.com/watch?v=-SWD7-CmauM"
+        },
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/document/9090404"
+        }
+      ]
+    },
+
+    {
+      "id": "2019_RemoteCollaboration",
+      "category": "publications",
+      "year": 2019,
+      "tags": ["full"],
+      "image": "imgs/RemoteCollaboration.png",
+      "title": "Investigating the Effect of Embodied Visualization in Remote Collaborative Augmented Reality",
+      "authors": [
+        "Kristoffer Waldow",
+        "Arnulph Fuhrmann",
+        "Stefan M. Grünvogel"
+      ],
+      "published": "Proceedings of 16th EuroVR International Conference, EuroVR 2019, Tallinn, Estonia. Part of the Lecture Notes in Computer Science, vol 11883. Springer, Cham, 2019.",
+      "abstract": "This paper investigates the influence of embodied visualization on the effectiveness of remote collaboration in a worker-instructor scenario in augmented reality (AR). For this purpose, we conducted a user study where we used avatars in a remote collaboration system in AR to allow natural human communication. In a worker-instructor scenario, spatially separated pairs of subjects have to solve a common task, while their respective counterpart is either visualized as an avatar or without bodily representation. As a baseline, a Face-to-face (F2F) interaction is carried out to define an ideal interaction. In the subsequent analysis of the results, the embodied visualization indicates significant differences in copresence and social presence, but no significant differences in the performance and workload. Verbal feedback of our subjects hints that augmentations, like the visualization of the viewing direction, are more important in our scenario than the visualization of the interaction partner.",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://www.youtube.com/watch?v=JfgxjNKQqaU"
+        },
+        {
+          "name": "Springer",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-030-31908-3_15"
+        }
+      ],
+      "bibtex": true
+    },
+
+    {
+      "id": "2019_MQTT",
+      "category": "publications",
+      "year": 2019,
+      "tags": ["poster"],
+      "image": "imgs/MQTT_Teaser.png",
+      "title": "Using MQTT for platform independent remote mixed reality collaboration",
+      "authors": ["Kristoffer Waldow", "Arnulph Fuhrmann"],
+      "published": "Proceedings of the Mensch und Computer 2019, Workshop on User-Embodied Interaction in Virtual Reality",
+      "abstract": "In this paper, we present a Mixed Reality telepresence system that allows the connection of multiple AR or VR devices to create a shared virtual environment by using the simple MQTT networking protocol. It follows a subscribe-publish pattern for reliable and easy platform independent integration. Therefore, it is possible to realize different clients that handle communication and allow remote collaboration. To allow embodied natural human interaction, the system maps the human interaction channels, gestures, gaze and speech, to an abstract stylized avatar by using an upper body inverse kinematic approach. This setup allows spatially separated persons to interact with each other via an avatar-mediated communication.",
+      "links": [
+        {
+          "name": "GI",
+          "link": "https://dx.doi.org/10.18420/muc2019-ws-570"
+        }
+      ]
+    },
+
+    {
+      "id": "2018_Smartphone",
+      "category": "publications",
+      "year": 2018,
+      "image": "imgs/Smartphone.png",
+      "tags": ["poster"],
+      "title": "An Evaluation of Smartphone-Based Interaction in AR for Constrained Object Manipulation",
+      "authors": [
+        "Kristoffer Waldow",
+        "Martin Misiak",
+        "Ursula Derichs",
+        "Olaf Clausen",
+        "Arnulph Fuhrmann"
+      ],
+      "published": "Proceedings of the 24th ACM Symposium of Virtual Reality Software and Technology (VRST), Tokio, Japan 2018",
+      "abstract": "In Augmented Reality, interaction with the environment can be achieved with a number of different approaches. In current systems, the most common are hand and gesture inputs. However experimental applications also integrated smartphones as intuitive interaction devices and demonstrated great potential for different tasks. One particular task is constrained object manipulation, for which we conducted a user study. In it we compared standard gesture-based approaches with a touch-based interaction via smartphone. We found that a touch-based interface is significantly more efficient, although gestures are being subjectively more accepted. From these results we draw conclusions on how smartphones can be used to realize modern interfaces in AR.",
+      "links": [
+        {
+          "name": "ACM",
+          "link": "https://dl.acm.org/doi/10.1145/3281505.3281608"
+        }
+      ]
+    },
+
+    {
+      "id": "2018_DoTexturesAndGlobal",
+      "category": "publications",
+      "year": 2018,
+      "tags": ["poster"],
+      "image": "imgs/DoTexturesAndGlobal.jpg",
+      "title": "Do textures and global illumination influence the perception of redirected walking based on translational gain?",
+      "authors": [
+        "Kristoffer Waldow",
+        "Arnulph Fuhrmann",
+        "Stefan M. Grünvogel"
+      ],
+      "published": "Proceedings of the 25th IEEE Virtual Reality (VR) conference, Reutlingen, Germany, 2018",
+      "abstract": "For locomotion in virtual environments (VE) the method of redirected walking (RDW) enables users to explore large virtual areas within a restricted physical space by (almost) natural walking. The trick behind this method is to manipulate the virtual camera in an user-undetectable manner that leads to a change of his movements. If the virtual camera is manipulated too strong then the user recognizes this manipulation and reacts accordingly. We studied the effect of human perception of RDW under the influence of the level of realism in rendering the virtual scene.",
+      "links": [
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/document/8446587"
+        }
+      ]
+    },
+
+    {
+      "id": "2017_SIAMC",
+      "category": "publications",
+      "year": 2017,
+      "tags": ["full"],
+      "image": "imgs/siam-c.jpg",
+      "title": "Socially immersive avatar-based communication",
+      "authors": [
+        "Daniel Roth",
+        "Kristoffer Waldow",
+        "Marc Erich Latoschik",
+        "Arnulph Fuhrmann",
+        "Gary Bente"
+      ],
+      "published": "Proceedings of the 24rd IEEE Virtual Reality (IEEE VR) conference, 2017",
+      "abstract": "In this paper, we present SIAM-C, an avatar-mediated communication platform to study socially immersive interaction in virtual environments. The proposed system is capable of tracking, transmitting, representing body motion, facial expressions, and voice via virtual avatars and inherits the transmission of human behaviors that are available in real-life social interactions. Users are immersed using active stereoscopic rendering projected onto a life-size projection plane, utilizing the concept of “fish tank” virtual reality (VR). Our prototype connects two separate rooms and allows for socially immersive avatar-mediated communication in VR.",
+      "links": [
+        {
+          "name": "IEEE",
+          "link": "https://ieeexplore.ieee.org/document/7892275"
+        }
+      ]
+    },
+
+    {
+      "id": "2016_SIAMC",
+      "category": "publications",
+      "year": 2016,
+      "tags": ["poster"],
+      "image": "imgs/SiamC2016.png",
+      "title": "SIAMC: a socially immersive avatar mediated communication platform",
+      "authors": [
+        "Daniel Roth",
+        "Kristoffer Waldow",
+        "Felix Stetter",
+        "Gary Bente",
+        "Marc Erich Latoschik",
+        "Arnulph Fuhrmann"
+      ],
+      "published": "Proceedings of the 22nd ACM Conference on Virtual Reality Software and Technology",
+      "abstract": "In this paper, we present a avatar-mediated communication platform for socially immersive interaction in virtual reality (VR). Our approach is based on the combination of body tracking, facial expression tracking and \"fishtank\" VR. Our prototype enables two remote users to communicate via avatars.",
+      "links": [
+        {
+          "name": "ACM",
+          "link": "https://dl.acm.org/doi/abs/10.1145/2993369.2996302"
+        }
+      ]
+    }
+  ]
+}

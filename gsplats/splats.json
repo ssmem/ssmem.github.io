@@ -1,0 +1,82 @@
+{
+  "scenes": [
+    {
+      "name": "Wohnung (3DGS)",
+      "img": "assets/images/flat3DGS.png",
+      "fileName": "flat3DGS",
+      "sceneSettings": {
+        "rotation": [0, 0, 0],
+        "scale": [-1.0, -1.0, 1.0],
+        "position": [0, 0.0, 0]
+      },
+      "viewerSetttings": {
+        "initialCameraPosition": [1, 2, 3]
+      }
+    },
+    {
+      "name": "Wohnung (Polycam)",
+      "img": "assets/images/flatPolycam.png",
+      "fileName": "flatPolycam",
+      "sceneSettings": {
+        "rotation": [0, 0, 0],
+        "scale": [1.0, 1.0, 1.0],
+        "position": [0.0, 2.0, 0]
+      },
+      "viewerSetttings": {
+        "initialCameraPosition": [1.8, 0.84, -4.0]
+      }
+    },
+    {
+      "name": "Liegende Stütze A",
+      "img": "assets/images/liegendeStuetzeA.png",
+      "fileName": "liegendeStuetzeA",
+      "sceneSettings": {
+        "rotation": [0, 0, 0],
+        "scale": [-1.0, -1.0, 1.0],
+        "position": [0.0, 0.0, 0]
+      },
+      "viewerSetttings": {
+        "initialCameraPosition": [1.8, 0.84, -4.0]
+      }
+    },
+    {
+      "name": "Reach project Team",
+      "img": "assets/images/reach.png",
+      "fileName": "reach",
+      "sceneSettings": {
+        "rotation": [0, 0, 0],
+        "scale": [1.0, -1.0, 1.0],
+        "position": [0.0, 0.0, 0]
+      },
+      "viewerSetttings": {
+        "initialCameraPosition": [1.8, 0.84, -4.0]
+      }
+    },
+    {
+      "name": "Team member: Kris",
+      "img": "assets/images/kris.png",
+      "fileName": "kris",
+      "sceneSettings": {
+        "rotation": [0, 0, 0],
+        "scale": [1.0, -1.0, -1.0],
+        "position": [0.0, 0.0, 0]
+      },
+      "viewerSetttings": {
+        "initialCameraPosition": [1.8, 0.84, -4.0]
+      }
+    },
+    {
+      "name": "Team member: Merle",
+      "img": "assets/images/merle.png",
+      "fileName": "merle",
+      "sceneSettings": {
+        "rotation": [0, 0, 0],
+        "scale": [1.0, -1.0, -1.0],
+        "position": [0.0, 0.0, 0]
+      },
+      "viewerSetttings": {
+        "initialCameraPosition": [1.8, 0.84, -4.0]
+      }
+    }
+  ]
+}
