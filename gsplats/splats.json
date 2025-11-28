@@ -27,9 +27,9 @@
       }
     },
     {
-      "name": "Liegende Stütze A",
+      "name": "HKLianLang",
       "img": "assets/images/liegendeStuetzeA.png",
-      "fileName": "liegendeStuetzeA",
+      "fileName": "hklianlang",
       "sceneSettings": {
         "rotation": [0, 0, 0],
         "scale": [-1.0, -1.0, 1.0],
