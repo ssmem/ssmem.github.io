@@ -28,7 +28,7 @@
     },
     {
       "name": "HKLianLang",
-      "img": "assets/images/liegendeStuetzeA.png",
+      "img": "assets/images/hklianlang.png",
       "fileName": "hklianlang",
       "sceneSettings": {
         "rotation": [0, 0, 0],
